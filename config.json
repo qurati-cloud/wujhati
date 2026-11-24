@@ -71,7 +71,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "esim"
     },
     {
       "id": "vpn",
@@ -125,7 +126,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "vpn"
     },
     {
       "id": "speed",
@@ -155,7 +157,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "speed"
     },
     {
       "id": "wifi",
@@ -172,7 +175,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "wifi"
     },
     {
       "id": "phone",
@@ -214,7 +218,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "phone"
     },
     {
       "id": "calls",
@@ -244,7 +249,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "calls"
     },
     {
       "id": "flight",
@@ -274,7 +280,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "flight"
     },
     {
       "id": "hotel",
@@ -304,7 +311,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "hotel"
     },
     {
       "id": "transfer",
@@ -358,7 +366,8 @@
         "جهّز النقل من المطار وإليه واختر مزود الخدمة.",
         "Plan airport transfers and choose a provider.",
         "Préparez vos transferts et choisissez un prestataire."
-      ]
+      ],
+      "visual": "transfer"
     },
     {
       "id": "car",
@@ -388,7 +397,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "car"
     },
     {
       "id": "rail",
@@ -418,7 +428,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "rail"
     },
     {
       "id": "ferry",
@@ -448,7 +459,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "ferry"
     },
     {
       "id": "luggage",
@@ -490,7 +502,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "luggage"
     },
     {
       "id": "darbna",
@@ -520,7 +533,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "darbna"
     },
     {
       "id": "currency",
@@ -537,7 +551,8 @@
         "اختر العملتين وأدخل المبلغ.",
         "Choose both currencies and enter an amount.",
         "Choisissez deux devises et saisissez un montant."
-      ]
+      ],
+      "visual": "currency"
     },
     {
       "id": "expenses",
@@ -554,7 +569,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "expenses"
     },
     {
       "id": "packing",
@@ -571,7 +587,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "packing"
     },
     {
       "id": "time",
@@ -588,7 +605,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "time"
     },
     {
       "id": "maps",
@@ -618,7 +636,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "maps"
     },
     {
       "id": "translate",
@@ -648,7 +667,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "translate"
     },
     {
       "id": "weather",
@@ -678,7 +698,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "weather"
     },
     {
       "id": "visa",
@@ -708,7 +729,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "visa"
     },
     {
       "id": "track",
@@ -738,7 +760,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "track"
     },
     {
       "id": "plug",
@@ -768,7 +791,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "plug"
     },
     {
       "id": "emergency",
@@ -785,7 +809,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "emergency"
     },
     {
       "id": "prayer",
@@ -802,7 +827,8 @@
         "ابحث عن المواقيت في وجهتك وتحقق من طريقة الحساب.",
         "Find prayer times at your destination and verify the calculation method.",
         "Trouvez les horaires à destination et vérifiez la méthode de calcul."
-      ]
+      ],
+      "visual": "prayer"
     },
     {
       "id": "qibla",
@@ -819,7 +845,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "qibla"
     },
     {
       "id": "claim",
@@ -849,7 +876,8 @@
         "",
         "",
         ""
-      ]
+      ],
+      "visual": "claim"
     }
   ],
   "ads": [],
@@ -1266,11 +1294,150 @@
       "تتبع الرحلة على موقع FlightAware؛ قد يلزم اختيار الرحلة الصحيحة من النتائج.",
       "Track with FlightAware; select the correct flight if necessary.",
       "Suivez le vol sur FlightAware ; choisissez le vol si nécessaire."
+    ],
+    "searchIntro": [
+      "حدد احتياجاتك للمقارنة داخل وجهتي",
+      "Set your preferences to compare in Wujhati",
+      "Définissez vos critères pour comparer dans Wujhati"
+    ],
+    "pendingSearch": [
+      "البحث المباشر غير متاح بعد: ننتظر اعتماد مزودي البيانات. يمكنك حفظ طلبك دون دفع.",
+      "Live search is not available yet: provider approval is pending. Save your request without payment.",
+      "Recherche directe indisponible : agrément des fournisseurs en attente. Enregistrez votre demande sans paiement."
+    ],
+    "savedSearch": [
+      "حُفظ طلب البحث على جهازك، وليس حجزًا.",
+      "Search request saved on this device; no booking made.",
+      "Recherche enregistrée sur cet appareil ; aucune réservation."
+    ],
+    "rooms": [
+      "الغرف",
+      "Rooms",
+      "Chambres"
+    ],
+    "checkin": [
+      "الوصول",
+      "Check-in",
+      "Arrivée"
+    ],
+    "checkout": [
+      "المغادرة",
+      "Check-out",
+      "Départ"
+    ],
+    "dataGB": [
+      "حجم البيانات بالغيغابايت",
+      "Data allowance in GB",
+      "Volume de données en Go"
+    ],
+    "days": [
+      "عدد الأيام",
+      "Days",
+      "Jours"
+    ],
+    "budget": [
+      "الميزانية القصوى (اختياري)",
+      "Maximum budget (optional)",
+      "Budget maximal (facultatif)"
+    ],
+    "saved": [
+      "المحفوظات",
+      "Saved",
+      "Enregistrés"
+    ],
+    "noSaved": [
+      "لا توجد طلبات محفوظة",
+      "No saved requests",
+      "Aucune demande enregistrée"
+    ],
+    "delete": [
+      "حذف",
+      "Delete",
+      "Supprimer"
+    ],
+    "providerState": [
+      "مصدر البيانات قيد الاعتماد",
+      "Provider approval pending",
+      "Agrément fournisseur en attente"
+    ],
+    "weatherSearch": [
+      "ابحث عن المدينة لعرض الطقس",
+      "Search for a city to see weather",
+      "Recherchez une ville pour la météo"
+    ],
+    "weatherError": [
+      "تعذر جلب الطقس أو لم نجد المدينة",
+      "Weather unavailable or city not found",
+      "Météo indisponible ou ville introuvable"
+    ],
+    "temperature": [
+      "الحرارة",
+      "Temperature",
+      "Température"
+    ],
+    "wind": [
+      "سرعة الرياح",
+      "Wind speed",
+      "Vitesse du vent"
+    ],
+    "today": [
+      "اليوم",
+      "Today",
+      "Aujourd’hui"
+    ],
+    "prayerPending": [
+      "المواقيت تحتاج إلى طريقة حساب معتمدة ومصدر موثوق قبل العرض.",
+      "Prayer times require a verified source and calculation method.",
+      "Les horaires exigent une source et une méthode de calcul vérifiées."
+    ],
+    "mapPending": [
+      "عرض الخرائط داخل التطبيق قيد التفعيل.",
+      "In-app maps are not yet enabled.",
+      "Les cartes intégrées ne sont pas encore activées."
+    ],
+    "darbnaPending": [
+      "خدمة دربنا مستقلة حاليًا؛ الربط الداخلي يحتاج إلى واجهة برمجية من دربنا.",
+      "Darbna is currently independent; integration requires its API.",
+      "Darbna est indépendant ; son API est nécessaire à l’intégration."
+    ],
+    "speedPending": [
+      "اختبار السرعة الداخلي قيد التفعيل.",
+      "In-app speed test is not yet enabled.",
+      "Test de débit intégré en attente."
+    ],
+    "weatherAttribution": [
+      "بيانات الطقس: Open-Meteo (استخدام غير تجاري فقط؛ غير مفعّل للنشر التجاري).",
+      "Weather: Open-Meteo (non-commercial use only; disabled for commercial release).",
+      "Météo : Open-Meteo (usage non commercial uniquement ; désactivé pour lancement commercial)."
+    ],
+    "localTools": [
+      "أدوات تعمل داخل وجهتي",
+      "Tools inside Wujhati",
+      "Outils intégrés"
+    ],
+    "searchServices": [
+      "ابحث عن خدمة",
+      "Find a service",
+      "Rechercher un service"
+    ],
+    "clearSearch": [
+      "مسح البحث",
+      "Clear search",
+      "Effacer la recherche"
+    ],
+    "integrationNote": [
+      "لا توجد حجوزات أو أسعار مؤكدة قبل تفعيل مصادر الشركاء.",
+      "No confirmed bookings or prices until partner sources are enabled.",
+      "Aucun prix ni réservation confirmé avant activation des partenaires."
     ]
   },
   "brandNames": [
     "وجهتي",
     "Wujhati",
     "Wujhati"
-  ]
+  ],
+  "integration": {
+    "endpoint": "",
+    "weatherEnabled": false
+  }
 }
