@@ -47,11 +47,11 @@
           "url": "https://www.getnomad.app/",
           "affiliate": "",
           "approved": false,
-          "status": "pending",
+          "status": "awaiting_response",
           "description": [
-            "",
-            "",
-            ""
+            "بانتظار رد فريق الشراكات.",
+            "Awaiting affiliate team response.",
+            "En attente de réponse de l’équipe affiliation."
           ]
         },
         {
@@ -330,7 +330,7 @@
           "url": "https://kiwitaxi.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending",
+          "status": "registration_pending",
           "description": [
             "",
             "",
@@ -478,11 +478,11 @@
           "url": "https://luggagehero.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending",
+          "status": "contact_failed",
           "description": [
-            "",
-            "",
-            ""
+            "لم ينجح التواصل الأولي.",
+            "Initial contact unsuccessful.",
+            "Premier contact infructueux."
           ]
         }
       ],
@@ -509,7 +509,7 @@
           "url": "https://darbna-web-production.up.railway.app/",
           "affiliate": "",
           "approved": false,
-          "status": "pending",
+          "status": "integration_pending",
           "description": [
             "",
             "",
@@ -668,20 +668,7 @@
       ],
       "group": 2,
       "enabled": true,
-      "partners": [
-        {
-          "name": "Windy",
-          "url": "https://www.windy.com/",
-          "affiliate": "",
-          "approved": false,
-          "status": "pending",
-          "description": [
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
+      "partners": [],
       "description": [
         "",
         "",
