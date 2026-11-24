@@ -1231,6 +1231,41 @@
       "تعذر تحميل الخدمات. أعد تحميل الصفحة.",
       "Unable to load services. Reload the page.",
       "Impossible de charger les services. Rechargez la page."
+    ],
+    "expenseClear": [
+      "مسح القائمة",
+      "Clear list",
+      "Effacer la liste"
+    ],
+    "expenseConfirm": [
+      "هل تريد حذف جميع المصاريف؟",
+      "Delete all expenses?",
+      "Supprimer toutes les dépenses ?"
+    ],
+    "tripDetails": [
+      "تفاصيل الرحلة",
+      "Trip details",
+      "Détails du voyage"
+    ],
+    "tripStart": [
+      "بلد أو مدينة الانطلاق",
+      "Departure city or country",
+      "Ville ou pays de départ"
+    ],
+    "tripDestination": [
+      "الوجهة",
+      "Destination",
+      "Destination"
+    ],
+    "tripDateNote": [
+      "احفظ خطتك محليًا، والحجز لدى الشركات مباشرة.",
+      "Save your plan locally; book directly with providers.",
+      "Enregistrez votre plan localement ; réservez auprès des prestataires."
+    ],
+    "flightNote": [
+      "تتبع الرحلة على موقع FlightAware؛ قد يلزم اختيار الرحلة الصحيحة من النتائج.",
+      "Track with FlightAware; select the correct flight if necessary.",
+      "Suivez le vol sur FlightAware ; choisissez le vol si nécessaire."
     ]
   },
   "brandNames": [
