@@ -355,9 +355,9 @@
         }
       ],
       "description": [
-        "",
-        "",
-        ""
+        "جهّز النقل من المطار وإليه واختر مزود الخدمة.",
+        "Plan airport transfers and choose a provider.",
+        "Préparez vos transferts et choisissez un prestataire."
       ]
     },
     {
@@ -534,9 +534,9 @@
       "enabled": true,
       "partners": [],
       "description": [
-        "",
-        "",
-        ""
+        "اختر العملتين وأدخل المبلغ.",
+        "Choose both currencies and enter an amount.",
+        "Choisissez deux devises et saisissez un montant."
       ]
     },
     {
@@ -799,9 +799,9 @@
       "enabled": true,
       "partners": [],
       "description": [
-        "",
-        "",
-        ""
+        "ابحث عن المواقيت في وجهتك وتحقق من طريقة الحساب.",
+        "Find prayer times at your destination and verify the calculation method.",
+        "Trouvez les horaires à destination et vérifiez la méthode de calcul."
       ]
     },
     {
@@ -938,9 +938,9 @@
       "Voir le prestataire"
     ],
     "text16": [
-      "أدخل سعر الصرف يدويًا",
-      "Enter exchange rate manually",
-      "Saisissez le taux manuellement"
+      "حوّل بين العملات بأسعار مرجعية محدثة يوميًا.",
+      "Convert currencies using daily reference rates.",
+      "Convertissez les devises aux taux indicatifs quotidiens."
     ],
     "text17": [
       "المبلغ",
@@ -1016,6 +1016,221 @@
       "الرئيسية",
       "Home",
       "Accueil"
+    ],
+    "fxFrom": [
+      "من عملة",
+      "From currency",
+      "Devise de départ"
+    ],
+    "fxTo": [
+      "إلى عملة",
+      "To currency",
+      "Devise d’arrivée"
+    ],
+    "fxSwap": [
+      "تبديل العملتين",
+      "Swap currencies",
+      "Inverser les devises"
+    ],
+    "fxLoading": [
+      "جاري جلب أسعار الصرف…",
+      "Loading exchange rates…",
+      "Chargement des taux…"
+    ],
+    "fxError": [
+      "تعذر جلب الأسعار. تحقق من اتصالك وأعد المحاولة.",
+      "Rates unavailable. Check your connection and retry.",
+      "Taux indisponibles. Vérifiez la connexion et réessayez."
+    ],
+    "fxRetry": [
+      "إعادة المحاولة",
+      "Retry",
+      "Réessayer"
+    ],
+    "fxDate": [
+      "تاريخ تحديث المصدر",
+      "Source update",
+      "Mise à jour de la source"
+    ],
+    "fxNote": [
+      "الأسعار مرجعية وقد تختلف عن أسعار المصارف والصرافين. لا تشمل الرسوم.",
+      "Indicative rates may differ from banks and exchange offices. Fees excluded.",
+      "Taux indicatifs pouvant différer des banques et bureaux de change. Hors frais."
+    ],
+    "fxCached": [
+      "بيانات محفوظة سابقًا؛ قد لا تكون حديثة.",
+      "Previously saved rates; may be outdated.",
+      "Taux enregistrés précédemment, potentiellement anciens."
+    ],
+    "city": [
+      "المدينة",
+      "City",
+      "Ville"
+    ],
+    "country": [
+      "الدولة",
+      "Country",
+      "Pays"
+    ],
+    "search": [
+      "بحث",
+      "Search",
+      "Rechercher"
+    ],
+    "latitude": [
+      "خط العرض",
+      "Latitude",
+      "Latitude"
+    ],
+    "longitude": [
+      "خط الطول",
+      "Longitude",
+      "Longitude"
+    ],
+    "locate": [
+      "استعمال موقعي",
+      "Use my location",
+      "Utiliser ma position"
+    ],
+    "locError": [
+      "لم يتم الحصول على الموقع. أدخل الإحداثيات يدويًا.",
+      "Location unavailable. Enter coordinates manually.",
+      "Position indisponible. Saisissez les coordonnées."
+    ],
+    "north": [
+      "درجة من الشمال الحقيقي",
+      "degrees from true north",
+      "degrés depuis le nord vrai"
+    ],
+    "qiblaNote": [
+      "الاتجاه محسوب جغرافيًا. أعلى الرسم هو الشمال الحقيقي وليس اتجاه الهاتف.",
+      "Geographic bearing. Diagram top is true north, not phone orientation.",
+      "Cap géographique. Le haut du schéma indique le nord vrai, pas l’orientation du téléphone."
+    ],
+    "flightNumber": [
+      "رقم الرحلة الجوية",
+      "Flight number",
+      "Numéro de vol"
+    ],
+    "mapQuery": [
+      "اسم المدينة أو المكان",
+      "City or place",
+      "Ville ou lieu"
+    ],
+    "openMap": [
+      "عرض على الخريطة",
+      "Show on map",
+      "Afficher sur la carte"
+    ],
+    "depart": [
+      "من",
+      "From",
+      "Départ"
+    ],
+    "arrive": [
+      "إلى",
+      "To",
+      "Arrivée"
+    ],
+    "travelDate": [
+      "تاريخ الرحلة",
+      "Travel date",
+      "Date du voyage"
+    ],
+    "returnDate": [
+      "تاريخ العودة (اختياري)",
+      "Return date (optional)",
+      "Retour (facultatif)"
+    ],
+    "passengers": [
+      "عدد المسافرين",
+      "Travelers",
+      "Voyageurs"
+    ],
+    "tripSaved": [
+      "حُفظت تفاصيل الرحلة على جهازك.",
+      "Trip details saved on your device.",
+      "Détails du voyage enregistrés sur votre appareil."
+    ],
+    "transferNote": [
+      "احفظ تفاصيل النقل ثم اختر مزودًا. الأسعار والتوافر والحجز النهائي لدى المزود، ولن تُرسل تفاصيل النموذج تلقائيًا.",
+      "Save transfer details, then choose a provider. Pricing, availability and booking are on the provider site; form details are not sent automatically.",
+      "Enregistrez le trajet puis choisissez un prestataire. Prix, disponibilité et réservation chez le prestataire ; le formulaire n’est pas transmis automatiquement."
+    ],
+    "save": [
+      "حفظ",
+      "Save",
+      "Enregistrer"
+    ],
+    "transferDirection": [
+      "اتجاه الرحلة",
+      "Transfer direction",
+      "Sens du trajet"
+    ],
+    "airportTo": [
+      "من المطار إلى السكن",
+      "Airport to accommodation",
+      "Aéroport vers hébergement"
+    ],
+    "toAirport": [
+      "من السكن إلى المطار",
+      "Accommodation to airport",
+      "Hébergement vers aéroport"
+    ],
+    "roundTrip": [
+      "ذهاب وعودة",
+      "Round trip",
+      "Aller-retour"
+    ],
+    "luggageCount": [
+      "عدد الحقائب",
+      "Bags",
+      "Bagages"
+    ],
+    "flightOptional": [
+      "رقم الرحلة (اختياري)",
+      "Flight number (optional)",
+      "Numéro de vol (facultatif)"
+    ],
+    "emergencyNote": [
+      "في الحالات الطارئة اتصل برقم الطوارئ المحلي. تحقق من الأرقام الرسمية الخاصة بوجهتك قبل السفر.",
+      "In emergencies call the local emergency number. Verify official destination numbers before travel.",
+      "En urgence, appelez le numéro local. Vérifiez les numéros officiels avant le voyage."
+    ],
+    "prayerNote": [
+      "راجع مواقيت مسجد موثوق في وجهتك؛ طرق الحساب قد تختلف.",
+      "Check a trusted local mosque; calculation methods may differ.",
+      "Vérifiez auprès d’une mosquée locale fiable ; les méthodes peuvent différer."
+    ],
+    "prayerOpen": [
+      "البحث عن المواقيت",
+      "Find prayer times",
+      "Trouver les horaires"
+    ],
+    "expenseCurrency": [
+      "عملة الميزانية",
+      "Budget currency",
+      "Devise du budget"
+    ],
+    "expenseNote": [
+      "استخدم عملة واحدة لجميع المصاريف في هذه القائمة.",
+      "Use one currency for all expenses in this list.",
+      "Utilisez une seule devise pour cette liste."
+    ],
+    "searchProvider": [
+      "البحث لدى المزود",
+      "Search with provider",
+      "Rechercher chez le prestataire"
+    ],
+    "loading": [
+      "جاري التحميل…",
+      "Loading…",
+      "Chargement…"
+    ],
+    "loadError": [
+      "تعذر تحميل الخدمات. أعد تحميل الصفحة.",
+      "Unable to load services. Reload the page.",
+      "Impossible de charger les services. Rechargez la page."
     ]
   },
   "brandNames": [
