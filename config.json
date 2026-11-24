@@ -1,0 +1,542 @@
+{
+  "brand": "وجهتي",
+  "slogan": [
+    "رفيقتي في السفر والحضر",
+    "My companion at home and abroad",
+    "Ma compagne ici et ailleurs"
+  ],
+  "contact": "",
+  "services": [
+    {
+      "id": "esim",
+      "icon": "◉",
+      "labels": [
+        "eSIM",
+        "eSIM",
+        "eSIM"
+      ],
+      "group": 0,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "Airalo",
+          "url": "https://www.airalo.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        },
+        {
+          "name": "Saily",
+          "url": "https://saily.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        },
+        {
+          "name": "Nomad",
+          "url": "https://www.getnomad.app/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        },
+        {
+          "name": "Holafly",
+          "url": "https://esim.holafly.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "vpn",
+      "icon": "◇",
+      "labels": [
+        "VPN",
+        "VPN",
+        "VPN"
+      ],
+      "group": 0,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "NordVPN",
+          "url": "https://nordvpn.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        },
+        {
+          "name": "Surfshark",
+          "url": "https://surfshark.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        },
+        {
+          "name": "Proton VPN",
+          "url": "https://protonvpn.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "speed",
+      "icon": "↗",
+      "labels": [
+        "فحص الاتصال",
+        "Connection test",
+        "Test de connexion"
+      ],
+      "group": 0,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "Cloudflare",
+          "url": "https://speed.cloudflare.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "wifi",
+      "icon": "⌁",
+      "labels": [
+        "أمان الشبكة",
+        "Wi-Fi safety",
+        "Sécurité Wi-Fi"
+      ],
+      "group": 0,
+      "enabled": true,
+      "partners": []
+    },
+    {
+      "id": "phone",
+      "icon": "☎",
+      "labels": [
+        "أرقام افتراضية",
+        "Virtual numbers",
+        "Numéros virtuels"
+      ],
+      "group": 0,
+      "enabled": true,
+      "partners": []
+    },
+    {
+      "id": "flight",
+      "icon": "✈",
+      "labels": [
+        "الطيران",
+        "Flights",
+        "Vols"
+      ],
+      "group": 1,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "Aviasales",
+          "url": "https://www.aviasales.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "hotel",
+      "icon": "▤",
+      "labels": [
+        "السكن",
+        "Accommodation",
+        "Hébergement"
+      ],
+      "group": 1,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "Booking.com",
+          "url": "https://www.booking.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "transfer",
+      "icon": "➜",
+      "labels": [
+        "نقل المطار",
+        "Airport transfers",
+        "Transferts aéroport"
+      ],
+      "group": 1,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "Welcome Pickups",
+          "url": "https://www.welcomepickups.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        },
+        {
+          "name": "Kiwitaxi",
+          "url": "https://kiwitaxi.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        },
+        {
+          "name": "GetTransfer",
+          "url": "https://gettransfer.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "car",
+      "icon": "▣",
+      "labels": [
+        "تأجير السيارات",
+        "Car rental",
+        "Location de voiture"
+      ],
+      "group": 1,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "DiscoverCars",
+          "url": "https://www.discovercars.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "rail",
+      "icon": "▥",
+      "labels": [
+        "القطارات والحافلات",
+        "Rail & bus",
+        "Trains et bus"
+      ],
+      "group": 1,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "12Go",
+          "url": "https://12go.asia/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "ferry",
+      "icon": "≈",
+      "labels": [
+        "العبارات",
+        "Ferries",
+        "Ferries"
+      ],
+      "group": 1,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "12Go",
+          "url": "https://12go.asia/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "luggage",
+      "icon": "▧",
+      "labels": [
+        "تخزين الأمتعة",
+        "Luggage storage",
+        "Consigne bagages"
+      ],
+      "group": 1,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "Radical Storage",
+          "url": "https://radicalstorage.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        },
+        {
+          "name": "LuggageHero",
+          "url": "https://luggagehero.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "darbna",
+      "icon": "↔",
+      "labels": [
+        "دربنا",
+        "Darbna",
+        "Darbna"
+      ],
+      "group": 1,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "Darbna",
+          "url": "https://darbna-web-production.up.railway.app/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "icon": "⇄",
+      "labels": [
+        "العملات",
+        "Currency",
+        "Devises"
+      ],
+      "group": 2,
+      "enabled": true,
+      "partners": []
+    },
+    {
+      "id": "expenses",
+      "icon": "＋",
+      "labels": [
+        "المصاريف",
+        "Expenses",
+        "Dépenses"
+      ],
+      "group": 2,
+      "enabled": true,
+      "partners": []
+    },
+    {
+      "id": "packing",
+      "icon": "✓",
+      "labels": [
+        "حقيبة السفر",
+        "Packing list",
+        "Liste de bagages"
+      ],
+      "group": 2,
+      "enabled": true,
+      "partners": []
+    },
+    {
+      "id": "time",
+      "icon": "◷",
+      "labels": [
+        "التوقيت المحلي",
+        "Local time",
+        "Heure locale"
+      ],
+      "group": 2,
+      "enabled": true,
+      "partners": []
+    },
+    {
+      "id": "maps",
+      "icon": "⌖",
+      "labels": [
+        "الخرائط",
+        "Maps",
+        "Cartes"
+      ],
+      "group": 2,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "icon": "文",
+      "labels": [
+        "الترجمة",
+        "Translation",
+        "Traduction"
+      ],
+      "group": 2,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "Google Translate",
+          "url": "https://translate.google.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "icon": "☀",
+      "labels": [
+        "الطقس",
+        "Weather",
+        "Météo"
+      ],
+      "group": 2,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "Windy",
+          "url": "https://www.windy.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "visa",
+      "icon": "▱",
+      "labels": [
+        "التأشيرات",
+        "Visas",
+        "Visas"
+      ],
+      "group": 2,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "IATA",
+          "url": "https://www.iatatravelcentre.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "track",
+      "icon": "✈",
+      "labels": [
+        "متابعة الرحلات",
+        "Flight tracking",
+        "Suivi des vols"
+      ],
+      "group": 2,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "FlightAware",
+          "url": "https://www.flightaware.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "plug",
+      "icon": "⌑",
+      "labels": [
+        "المقابس الكهربائية",
+        "Power plugs",
+        "Prises électriques"
+      ],
+      "group": 2,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "IEC",
+          "url": "https://www.iec.ch/world-plugs",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "icon": "!",
+      "labels": [
+        "الطوارئ والسفارات",
+        "Emergency & embassies",
+        "Urgences et ambassades"
+      ],
+      "group": 2,
+      "enabled": true,
+      "partners": []
+    },
+    {
+      "id": "prayer",
+      "icon": "◷",
+      "labels": [
+        "مواقيت الصلاة",
+        "Prayer times",
+        "Horaires de prière"
+      ],
+      "group": 2,
+      "enabled": true,
+      "partners": []
+    },
+    {
+      "id": "qibla",
+      "icon": "⌖",
+      "labels": [
+        "اتجاه القبلة",
+        "Qibla direction",
+        "Direction de la qibla"
+      ],
+      "group": 2,
+      "enabled": true,
+      "partners": []
+    },
+    {
+      "id": "claim",
+      "icon": "▤",
+      "labels": [
+        "تعويض الرحلات",
+        "Flight compensation",
+        "Indemnisation de vol"
+      ],
+      "group": 1,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "AirHelp",
+          "url": "https://www.airhelp.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "ads": [],
+  "offers": [],
+  "destinations": [],
+  "theme": {
+    "primary": "#093c49",
+    "accent": "#f6ae53"
+  }
+}
