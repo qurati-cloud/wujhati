@@ -23,11 +23,11 @@
           "url": "https://www.airalo.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending",
+          "status": "application_pending",
           "description": [
-            "",
-            "",
-            ""
+            "طلب الشراكة قيد المراجعة؛ الخدمة غير متاحة للحجز بعد.",
+            "Affiliate application under review; booking not yet available.",
+            "Demande d’affiliation en cours d’examen ; réservation non disponible."
           ]
         },
         {
@@ -35,11 +35,11 @@
           "url": "https://saily.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending",
+          "status": "application_pending",
           "description": [
-            "",
-            "",
-            ""
+            "طلب الشراكة قيد المراجعة؛ الخدمة غير متاحة للحجز بعد.",
+            "Affiliate application under review; booking not yet available.",
+            "Demande d’affiliation en cours d’examen ; réservation non disponible."
           ]
         },
         {
@@ -59,11 +59,11 @@
           "url": "https://esim.holafly.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending",
+          "status": "application_pending",
           "description": [
-            "",
-            "",
-            ""
+            "طلب الشراكة قيد المراجعة؛ الخدمة غير متاحة للحجز بعد.",
+            "Affiliate application under review; booking not yet available.",
+            "Demande d’affiliation en cours d’examen ; réservation non disponible."
           ]
         }
       ],
@@ -86,27 +86,15 @@
       "enabled": true,
       "partners": [
         {
-          "name": "NordVPN",
-          "url": "https://nordvpn.com/",
-          "affiliate": "",
-          "approved": false,
-          "status": "pending",
-          "description": [
-            "",
-            "",
-            ""
-          ]
-        },
-        {
           "name": "Surfshark",
           "url": "https://surfshark.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending",
+          "status": "application_pending",
           "description": [
-            "",
-            "",
-            ""
+            "طلب الشراكة قيد المراجعة؛ الخدمة غير متاحة للحجز بعد.",
+            "Affiliate application under review; booking not yet available.",
+            "Demande d’affiliation en cours d’examen ; réservation non disponible."
           ]
         },
         {
@@ -114,11 +102,11 @@
           "url": "https://protonvpn.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending",
+          "status": "application_pending",
           "description": [
-            "",
-            "",
-            ""
+            "طلب الشراكة قيد المراجعة؛ الخدمة غير متاحة للحجز بعد.",
+            "Affiliate application under review; booking not yet available.",
+            "Demande d’affiliation en cours d’examen ; réservation non disponible."
           ]
         }
       ],
@@ -330,11 +318,11 @@
           "url": "https://www.welcomepickups.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending",
+          "status": "awaiting_travelpayouts",
           "description": [
-            "",
-            "",
-            ""
+            "بانتظار استكمال الربط عبر Travelpayouts.",
+            "Awaiting Travelpayouts setup.",
+            "En attente de la configuration Travelpayouts."
           ]
         },
         {
