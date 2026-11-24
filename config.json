@@ -23,29 +23,54 @@
           "url": "https://www.airalo.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         },
         {
           "name": "Saily",
           "url": "https://saily.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         },
         {
           "name": "Nomad",
           "url": "https://www.getnomad.app/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         },
         {
           "name": "Holafly",
           "url": "https://esim.holafly.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -64,22 +89,42 @@
           "url": "https://nordvpn.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         },
         {
           "name": "Surfshark",
           "url": "https://surfshark.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         },
         {
           "name": "Proton VPN",
           "url": "https://protonvpn.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -98,8 +143,18 @@
           "url": "https://speed.cloudflare.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -112,7 +167,12 @@
       ],
       "group": 0,
       "enabled": true,
-      "partners": []
+      "partners": [],
+      "description": [
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": "phone",
@@ -124,7 +184,67 @@
       ],
       "group": 0,
       "enabled": true,
-      "partners": []
+      "partners": [
+        {
+          "name": "Fongo Mobile",
+          "url": "https://www.fongo.com/services/fongo-mobile/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending",
+          "description": [
+            "رقم كندي عبر الإنترنت، وفق شروط التوفر.",
+            "Canadian number over the internet, subject to availability.",
+            "Numéro canadien via Internet, selon disponibilité."
+          ]
+        },
+        {
+          "name": "Fongo World Edition",
+          "url": "https://www.fongo.com/services/fongo-mobile/fongo-world-edition/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending",
+          "description": [
+            "خيار للمستخدمين خارج كندا؛ قد يكون التطبيق مدفوعًا.",
+            "Option outside Canada; the app may be paid.",
+            "Option hors Canada ; application potentiellement payante."
+          ]
+        }
+      ],
+      "description": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "calls",
+      "icon": "☎",
+      "labels": [
+        "المكالمات الدولية",
+        "International calls",
+        "Appels internationaux"
+      ],
+      "group": 0,
+      "enabled": true,
+      "partners": [
+        {
+          "name": "Fongo",
+          "url": "https://www.fongo.com/",
+          "affiliate": "",
+          "approved": false,
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "description": [
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": "flight",
@@ -142,8 +262,18 @@
           "url": "https://www.aviasales.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -162,8 +292,18 @@
           "url": "https://www.booking.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -182,22 +322,42 @@
           "url": "https://www.welcomepickups.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         },
         {
           "name": "Kiwitaxi",
           "url": "https://kiwitaxi.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         },
         {
           "name": "GetTransfer",
           "url": "https://gettransfer.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -216,8 +376,18 @@
           "url": "https://www.discovercars.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -236,8 +406,18 @@
           "url": "https://12go.asia/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -256,8 +436,18 @@
           "url": "https://12go.asia/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -276,15 +466,30 @@
           "url": "https://radicalstorage.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         },
         {
           "name": "LuggageHero",
           "url": "https://luggagehero.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -303,8 +508,18 @@
           "url": "https://darbna-web-production.up.railway.app/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -317,7 +532,12 @@
       ],
       "group": 2,
       "enabled": true,
-      "partners": []
+      "partners": [],
+      "description": [
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": "expenses",
@@ -329,7 +549,12 @@
       ],
       "group": 2,
       "enabled": true,
-      "partners": []
+      "partners": [],
+      "description": [
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": "packing",
@@ -341,7 +566,12 @@
       ],
       "group": 2,
       "enabled": true,
-      "partners": []
+      "partners": [],
+      "description": [
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": "time",
@@ -353,7 +583,12 @@
       ],
       "group": 2,
       "enabled": true,
-      "partners": []
+      "partners": [],
+      "description": [
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": "maps",
@@ -371,8 +606,18 @@
           "url": "https://www.openstreetmap.org/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -391,8 +636,18 @@
           "url": "https://translate.google.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -411,8 +666,18 @@
           "url": "https://www.windy.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -431,8 +696,18 @@
           "url": "https://www.iatatravelcentre.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -451,8 +726,18 @@
           "url": "https://www.flightaware.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -471,8 +756,18 @@
           "url": "https://www.iec.ch/world-plugs",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -485,7 +780,12 @@
       ],
       "group": 2,
       "enabled": true,
-      "partners": []
+      "partners": [],
+      "description": [
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": "prayer",
@@ -497,7 +797,12 @@
       ],
       "group": 2,
       "enabled": true,
-      "partners": []
+      "partners": [],
+      "description": [
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": "qibla",
@@ -509,7 +814,12 @@
       ],
       "group": 2,
       "enabled": true,
-      "partners": []
+      "partners": [],
+      "description": [
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": "claim",
@@ -527,8 +837,18 @@
           "url": "https://www.airhelp.com/",
           "affiliate": "",
           "approved": false,
-          "status": "pending"
+          "status": "pending",
+          "description": [
+            "",
+            "",
+            ""
+          ]
         }
+      ],
+      "description": [
+        "",
+        "",
+        ""
       ]
     }
   ],
@@ -536,7 +856,171 @@
   "offers": [],
   "destinations": [],
   "theme": {
-    "primary": "#093c49",
-    "accent": "#f6ae53"
-  }
+    "primary": "#087e8b",
+    "accent": "#f6ae53",
+    "background": "#f4f9fa",
+    "logo": "icon.svg"
+  },
+  "texts": {
+    "text1": [
+      "تطبيق واحد لكل الرحلة",
+      "One app for every journey",
+      "Une application pour chaque voyage"
+    ],
+    "text2": [
+      "اتصال وتنقل وحجوزات وأدوات يومية",
+      "Connectivity, mobility and everyday tools",
+      "Connexion, mobilité et outils du quotidien"
+    ],
+    "text3": [
+      "إلى أين تتجه؟",
+      "Where are you going?",
+      "Votre destination ?"
+    ],
+    "text4": [
+      "جهّز رحلتي",
+      "Plan my trip",
+      "Préparer mon voyage"
+    ],
+    "text5": [
+      "الاتصال",
+      "Connectivity",
+      "Connexion"
+    ],
+    "text6": [
+      "الحجوزات والمواصلات",
+      "Bookings & transport",
+      "Réservations et transport"
+    ],
+    "text7": [
+      "أدواتي",
+      "My tools",
+      "Mes outils"
+    ],
+    "text8": [
+      "إعلان",
+      "Advertisement",
+      "Publicité"
+    ],
+    "text9": [
+      "زيارة",
+      "Visit",
+      "Visiter"
+    ],
+    "text10": [
+      "وجهتي · منصة مستقلة",
+      "Wujhati · Independent platform",
+      "Wujhati · Plateforme indépendante"
+    ],
+    "text11": [
+      "رحلتي",
+      "My trip",
+      "Mon voyage"
+    ],
+    "text12": [
+      "الحجز والدفع لدى المزود. قد نحصل على عمولة من الروابط المعلنة.",
+      "Booking and payment are with the provider. Disclosed links may earn a commission.",
+      "Réservation et paiement chez le prestataire. Les liens signalés peuvent générer une commission."
+    ],
+    "text13": [
+      "رابط عمولة",
+      "Affiliate link",
+      "Lien affilié"
+    ],
+    "text14": [
+      "رابط مباشر",
+      "Direct link",
+      "Lien direct"
+    ],
+    "text15": [
+      "زيارة المزود",
+      "Visit provider",
+      "Voir le prestataire"
+    ],
+    "text16": [
+      "أدخل سعر الصرف يدويًا",
+      "Enter exchange rate manually",
+      "Saisissez le taux manuellement"
+    ],
+    "text17": [
+      "المبلغ",
+      "Amount",
+      "Montant"
+    ],
+    "text18": [
+      "سعر الصرف",
+      "Rate",
+      "Taux"
+    ],
+    "text19": [
+      "البيان",
+      "Description",
+      "Description"
+    ],
+    "text20": [
+      "المبلغ",
+      "Amount",
+      "Montant"
+    ],
+    "text21": [
+      "المجموع",
+      "Total",
+      "Total"
+    ],
+    "text22": [
+      "جواز السفر",
+      "Passport",
+      "Passeport"
+    ],
+    "text23": [
+      "التذاكر",
+      "Tickets",
+      "Billets"
+    ],
+    "text24": [
+      "حجز السكن",
+      "Accommodation",
+      "Hébergement"
+    ],
+    "text25": [
+      "الشاحن",
+      "Charger",
+      "Chargeur"
+    ],
+    "text26": [
+      "الأمتعة",
+      "Luggage",
+      "Bagages"
+    ],
+    "text27": [
+      "الإنترنت",
+      "Internet",
+      "Internet"
+    ],
+    "text28": [
+      "نقل المطار",
+      "Airport transfer",
+      "Transfert"
+    ],
+    "text29": [
+      "تحقق من اسم الشبكة ولا تشارك معلومات حساسة على شبكة مجهولة. وجهتي لا يشغل VPN بنفسه.",
+      "Verify the network name and avoid sensitive data on unknown networks. Wujhati does not run a VPN tunnel.",
+      "Vérifiez le réseau et évitez les données sensibles. Wujhati ne fournit pas de tunnel VPN."
+    ],
+    "text30": [
+      "تحتاج الخدمة إلى مصدر بيانات موثوق قبل تفعيلها.",
+      "A verified data source is required before activation.",
+      "Une source vérifiée est nécessaire avant activation."
+    ],
+    "text31": [
+      "الرئيسية",
+      "Home",
+      "Accueil"
+    ]
+  },
+  "brandNames": [
+    "وجهتي",
+    "Wujhati",
+    "Wujhati"
+  ]
 }
