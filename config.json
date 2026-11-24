@@ -886,7 +886,7 @@
   "theme": {
     "primary": "#087e8b",
     "accent": "#f6ae53",
-    "background": "#f4f9fa",
+    "background": "#f7f8f9",
     "logo": "icon.svg"
   },
   "texts": {
@@ -911,9 +911,9 @@
       "Préparer mon voyage"
     ],
     "text5": [
-      "الاتصال",
-      "Connectivity",
-      "Connexion"
+      "الاتصال والإنترنت",
+      "Connectivity & internet",
+      "Connexion et Internet"
     ],
     "text6": [
       "الحجوزات والمواصلات",
@@ -921,9 +921,9 @@
       "Réservations et transport"
     ],
     "text7": [
-      "أدواتي",
-      "My tools",
-      "Mes outils"
+      "أدوات السفر",
+      "Travel tools",
+      "Outils de voyage"
     ],
     "text8": [
       "إعلان",
@@ -1429,6 +1429,41 @@
       "لا توجد حجوزات أو أسعار مؤكدة قبل تفعيل مصادر الشركاء.",
       "No confirmed bookings or prices until partner sources are enabled.",
       "Aucun prix ni réservation confirmé avant activation des partenaires."
+    ],
+    "essentials": [
+      "أبرز ما تحتاجه",
+      "Your travel essentials",
+      "Vos essentiels de voyage"
+    ],
+    "allServices": [
+      "جميع الخدمات",
+      "All services",
+      "Tous les services"
+    ],
+    "browseServices": [
+      "عرض جميع الخدمات",
+      "Explore all services",
+      "Voir tous les services"
+    ],
+    "quickTools": [
+      "أدوات سريعة",
+      "Quick tools",
+      "Outils pratiques"
+    ],
+    "tripPrompt": [
+      "نظّم رحلتك واحتفظ بتفاصيلها في مكان واحد.",
+      "Organize your trip and keep its details in one place.",
+      "Organisez votre voyage et gardez ses détails au même endroit."
+    ],
+    "serviceIntro": [
+      "اختر القسم الذي تحتاج إليه أو ابحث عن خدمة.",
+      "Choose a category or search for a service.",
+      "Choisissez une catégorie ou recherchez un service."
+    ],
+    "noServices": [
+      "لم نجد خدمة مطابقة.",
+      "No matching services.",
+      "Aucun service correspondant."
     ]
   },
   "brandNames": [
@@ -1439,5 +1474,17 @@
   "integration": {
     "endpoint": "",
     "weatherEnabled": false
-  }
+  },
+  "homeFeatured": [
+    "hotel",
+    "flight",
+    "transfer",
+    "esim"
+  ],
+  "homeQuick": [
+    "vpn",
+    "currency",
+    "packing",
+    "darbna"
+  ]
 }
