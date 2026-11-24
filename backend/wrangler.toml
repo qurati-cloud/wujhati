@@ -1,0 +1,6 @@
+name = "wujhati-api"
+main = "worker.js"
+compatibility_date = "2026-11-24"
+workers_dev = true
+[vars]
+ALLOWED_ORIGIN = "https://qurati-cloud.github.io"
