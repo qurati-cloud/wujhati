@@ -1,5 +1,5 @@
 <!doctype html><html lang="ar" dir="rtl"><head>
-<meta name='impact-site-verification' value='72bcd13b-5a67-4f21-b99a-472dc0dee79e'><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#093c49"><title>وجهتي | Wujhati</title><link rel="icon" href="icon.svg"><link rel="stylesheet" href="style.css?v=19"><link rel="manifest" href="manifest.webmanifest"><script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+<meta name='impact-site-verification' value='72bcd13b-5a67-4f21-b99a-472dc0dee79e'><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#093c49"><title>وجهتي | Wujhati</title><link rel="icon" href="icon.svg"><link rel="stylesheet" href="style.css?v=20"><link rel="manifest" href="manifest.webmanifest"><script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
   (function () {
       var script = document.createElement("script");
       script.async = 1;
@@ -8,4 +8,14 @@
       document.head.appendChild(script);
   })();
 </script>
-</head><body><header><nav><div class="brand"><img id="brandLogo" src="icon.svg" alt="" width="48" height="48"><span id="brandName">وجهتي</span></div><select id="lang" aria-label="Language"><option value="ar">العربية</option><option value="en">English</option><option value="fr">Français</option></select></nav></header><main id="main"><p>…</p></main><footer id="foot"></footer><nav id="bottomNav" class="bottom-nav"></nav><script>if("serviceWorker" in navigator){navigator.serviceWorker.getRegistrations().then(rs=>rs.filter(r=>r.scope===new URL("./",location.href).href).forEach(r=>r.update().catch(()=>{})))} </script><script src="tools.js?v=19"></script><script src="premium.js?v=19"></script><script src="app.js?v=19"></script></body></html>
+</head><body><header><nav><div class="brand"><img id="brandLogo" src="icon.svg" alt="" width="48" height="48"><span id="brandName">وجهتي</span></div><select id="lang" aria-label="Language"><option value="ar">العربية</option><option value="en">English</option><option value="fr">Français</option></select></nav></header><main id="main"><p>…</p></main><footer id="foot"></footer><nav id="bottomNav" class="bottom-nav"></nav><script>if("serviceWorker" in navigator){navigator.serviceWorker.getRegistrations().then(rs=>rs.filter(r=>r.scope===new URL("./",location.href).href).forEach(r=>r.update().catch(()=>{})))} </script><script src="tools.js?v=20"></script><script src="premium.js?v=20"></script><script src="app.js?v=20"></script><script>
+(function(){
+const normalize=s=>s.replace(/[٠-٩۰-۹]/g,c=>String(c.charCodeAt(0)-(c.charCodeAt(0)>=1776?1776:1632))).replace(/٫/g,'.').replace(/٬/g,'').replace(/−/g,'-');
+function validate(el){const s=el.value.trim(),n=Number(s),min=el.getAttribute('min'),max=el.getAttribute('max'),step=el.getAttribute('step');let ok=!s||(/^[+-]?(?:\d+(?:\.\d*)?|\.\d+)$/.test(s)&&Number.isFinite(n)&&(min===null||n>=Number(min))&&(max===null||n<=Number(max))&&(!step||step==='any'||Math.abs((n-Number(min||0))/Number(step)-Math.round((n-Number(min||0))/Number(step)))<1e-7));el.setCustomValidity(ok?'':({ar:'أدخل رقمًا صالحًا ضمن النطاق المطلوب',en:'Enter a valid number within the allowed range',fr:'Saisissez un nombre valide dans la plage autorisée'}[document.documentElement.lang]||'Invalid number'));}
+function prepare(el){if(el.dataset.numeric)return;el.dataset.numeric='1';el.type='text';el.inputMode=el.getAttribute('step')==='1'?'numeric':'decimal';el.dir='ltr';el.value=normalize(el.value);validate(el)}
+function scan(){document.querySelectorAll('input[type=number]').forEach(prepare)}
+new MutationObserver(scan).observe(document.body,{childList:true,subtree:true});scan();
+document.addEventListener('input',e=>{const el=e.target;if(!el.matches('input[data-numeric]'))return;const pos=el.selectionStart,old=el.value;el.value=normalize(old);if(pos!==null){const next=normalize(old.slice(0,pos)).length;el.setSelectionRange(next,next)}validate(el)},true);
+document.addEventListener('submit',e=>{for(const el of e.target.querySelectorAll('input[data-numeric]')){el.value=normalize(el.value);validate(el);if(!el.checkValidity()){e.preventDefault();e.stopImmediatePropagation();el.reportValidity();break}}},true);
+})();
+</script></body></html>
