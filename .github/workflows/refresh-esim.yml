@@ -16,14 +16,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: Download and validate catalog
         run: |
-          curl -fLsS --retry 2 --max-time 90 'https://drive.google.com/uc?export=download&id=1OEQ2jZO3ydqd3DFXLuer3fil91YqInRH' -o /tmp/airalo.xml
+          curl -fLsS --retry 2 --max-time 90 'https://drive.usercontent.google.com/download?id=1OEQ2jZO3ydqd3DFXLuer3fil91YqInRH&export=download&confirm=t' -o /tmp/airalo.xml
           python - <<'PY'
           import xml.etree.ElementTree as ET
           from urllib.parse import urlparse, parse_qs
           from decimal import Decimal
           from pathlib import Path
           n='{http://base.google.com/ns/1.0}'
-          root=ET.parse('/tmp/airalo.xml')
+          try:
+              root=ET.parse('/tmp/airalo.xml')
+          except ET.ParseError as e:
+              raise SystemExit('Download did not return valid XML; existing catalog preserved') from e
           items=root.findall('.//item')
           assert len(items)>=100, 'Incomplete catalog'
           for item in items:
