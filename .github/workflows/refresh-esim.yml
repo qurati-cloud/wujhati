@@ -5,18 +5,13 @@ on:
     - cron: '23 4 * * *'
 permissions:
   contents: write
-  pages: write
-  id-token: write
 concurrency:
   group: esim-refresh
   cancel-in-progress: false
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - name: Download and validate catalog
@@ -54,14 +49,3 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/airalo.xml
           git diff --cached --quiet || (git commit -m 'Refresh eSIM catalog' && git push)
-      - name: Prepare public website
-        run: |
-          mkdir -p /tmp/wujhati-site
-          git archive HEAD | tar -x -C /tmp/wujhati-site
-          rm -rf /tmp/wujhati-site/.github /tmp/wujhati-site/backend
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: /tmp/wujhati-site
-      - uses: actions/deploy-pages@v4
-        id: deployment
