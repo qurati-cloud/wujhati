@@ -317,12 +317,12 @@
           "name": "Welcome Pickups",
           "url": "https://www.welcomepickups.com/",
           "affiliate": "",
-          "approved": false,
-          "status": "awaiting_travelpayouts",
+          "approved": true,
+          "status": "widget_available",
           "description": [
-            "بانتظار استكمال الربط عبر Travelpayouts.",
-            "Awaiting Travelpayouts setup.",
-            "En attente de la configuration Travelpayouts."
+            "نموذج البحث متاح عبر Travelpayouts؛ عمولة النقل 8% والجولات 9%.",
+            "Search widget available via Travelpayouts; transfers 8%, sightseeing 9%.",
+            "Formulaire disponible via Travelpayouts ; transferts 8 %, visites 9 %."
           ]
         },
         {
